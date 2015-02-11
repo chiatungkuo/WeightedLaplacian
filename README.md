@@ -14,5 +14,5 @@ Dependence:
 + [Gurobi](http://www.gurobi.com): state of the art solvers for linear programs (LP), quadratic programs (QP), mixed integer quadratic constrained programs (MIQCP), etc. A free academic trial license can be obtained.
 + [Constrained spectral clustering](http://github.com/gnaixgnaw/CSP): spectral clustering with (relaxed) MUST-LINK and CANNOT-LINK constraints 
 
-This method is described in detail in the paper [Spectral Clustering for Medical Imaging](http://kuo.idav.ucdavis.edu/pubs/icdm2014.pdf).
+This method is described in detail in the paper [Spectral Clustering for Medical Imaging](https://sites.google.com/site/chiatungkuo/publication/icdm2014.pdf).
 The fMRI scan data set used in the experiments is a private data set; however fMRI data in similar format can be downloaded at [Alzheimer's Disease Neuroimaging Initiative](http://adni.loni.usc.edu) after proper disclosure agreement is signed. Please replace the load data routines in the code by your data.
