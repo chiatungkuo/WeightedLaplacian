@@ -21,7 +21,7 @@ for i = 1:n
     [V ~] = eigs(Lw, 3, 'SM');
     cut = V(:, 2);
     wcuts(:, i) = cut;
-    wcosts(i) = cut'*Lw*cut;
+    wcosts(i) = (weights.*cut)'*Lw*(weights.*cut);
 end
 
 % plot grouped box plot and print t-test results
